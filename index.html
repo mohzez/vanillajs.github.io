@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Background Change</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="display"></div>
+    <form action="">
+      <input type="number" id="input" placeholder="input number" min="0" max="255" />
+      <!-- buttons clicks within forms usually submit the form, which has an unwanted side effect of refreshing the page -->
+      <button type="submit" id="button" onclick="generateRandomColor(event)">
+        generate
+      </button>
+    </form>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
